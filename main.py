@@ -8,7 +8,7 @@ import sys
 from functools import partial
 from importlib import metadata, import_module
 from dotenv import load_dotenv
-import gphotos.photos_tools  # noqa: F401
+
 # Prevent any stray startup output on macOS (e.g. platform identifiers) from
 # corrupting the MCP JSON-RPC handshake on stdout. We capture anything written
 # to stdout during module-level initialisation and replay it to stderr so that
